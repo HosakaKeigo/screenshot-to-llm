@@ -37,3 +37,6 @@ https://www.autohotkey.com/
 ### ファイルの実行
 - `screenshot-to-llm.ahk`をダブルクリック。
 - `Win + A`で実行。
+
+## Requirement
+Windows 11+
