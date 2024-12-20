@@ -69,7 +69,8 @@ postWithBase64(endpoint, base64, bearerToken := "") {
         bearerToken := "xxxxxxxxxxxx" ; Bearerトークンを設定
         ; =========================
         response := postWithBase64(endpoint, base64, bearerToken)
-        MsgBox(response, "結果", 64)
+        MsgBox(response, "コピーしました", 64)
+        A_Clipboard := response
 
     } catch as e {
         MsgBox("Error: " e.Message, "Error", 16)
